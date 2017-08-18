@@ -1,0 +1,51 @@
+#calendar {
+    display: flex;
+    -webkit-flex-direction: column; /* works with row or column */
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+table {
+    margin: 12px;
+    table-layout: fixed;
+    width: 200px;
+}
+
+th, td {
+    border: 1px dotted black;
+    width: 50px;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+div > button {
+    margin-bottom: 20px;
+}
+
+table button {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+.checked {
+    stroke:black;
+    fill: transparent;
+    stroke-linecap: round;
+    stroke-width: 5;
+}
+
+svg {
+    overflow: visible;
+    height: 35px;
+    width: 36px;
+    margin-left: 4px;
+}
+
+svg[hidden] { display: none; }
