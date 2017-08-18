@@ -1,9 +1,10 @@
 #toolbar {
-    display: flex;
-    align-items: center;
     width: 100%;
-    background: #eee;
+    background: #F1F1F1;
     padding: 10px;
-    margin: 0 0 10px 0;
-    align-self: stretch;
+    margin: 0 0 15px 0;
+    h1 {
+        text-align: center;
+        margin: 5px;
+    }
 }
